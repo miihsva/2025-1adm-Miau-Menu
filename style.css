@@ -1,0 +1,11 @@
+:root{
+  --bege: #f7f0e3ff;
+  --rosa-pastel: #eda2c3ff;
+  --chiclete: #f48eb8ff;
+  --sorvete-de-chocolate: #985a40ff;
+  --marrom: #64321bff;
+}
+
+body{
+    background-color: var(--rosa-pastel);
+}
