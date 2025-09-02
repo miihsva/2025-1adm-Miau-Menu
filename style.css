@@ -1,11 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Sour+Gummy:ital,wght@0,100..900;1,100..900&family=Zilla+Slab:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+
 :root{
   --bege: #f7f0e3ff;
   --rosa-pastel: #eda2c3ff;
   --chiclete: #f48eb8ff;
   --sorvete-de-chocolate: #985a40ff;
   --marrom: #64321bff;
+  --preto: #000000
+  --branco: #f6f1e9
+  --texto: "Zilla Slab", serif;
+  --titulo: "Sour Gummy", sans-serif;
 }
 
 body{
     background-color: var(--rosa-pastel);
+    font-family: var(--titulo);
 }
