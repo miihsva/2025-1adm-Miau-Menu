@@ -15,4 +15,38 @@
 body{
     background-color: var(--rosa-pastel);
     font-family: var(--titulo);
+    margin: 0;
+}
+
+header{
+  background-color: var(--chiclete);
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+  align-items: center;
+}
+
+.img-logo{
+    width: 25%;
+    border-radius: 20%;
+}
+
+.menu{
+  display: flex;
+  list-style: none;
+  gap: 30px;
+  color: var(--marrom);
+  font-size: 20px;
+  font-family: var(--titulo);
+  text-transform: uppercase;
+}
+
+.menu a{
+text-decoration: none;
+color: var(--bege);
+}
+
+.menu a:hover{
+  color: var(--marrom);
+  transition: 0.5s;
 }
