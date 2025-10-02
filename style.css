@@ -70,5 +70,16 @@ color: var(--bege);
 .apresentacao{
   font-family: var(--titulo);
   text-align: center;
-  margin: 40px 0;
+  margin: 30px 0;
+}
+
+.apresentacao h2{
+  color: var(--bege);
+  font-size: 50px;
+}
+
+.apresentacao p{
+  color: var(--preto);
+  font-size: 25px;
+  font-family: var(--texto);
 }
