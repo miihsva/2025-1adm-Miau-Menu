@@ -83,3 +83,43 @@ color: var(--bege);
   font-size: 25px;
   font-family: var(--texto);
 }
+
+.sobre{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0;
+  gap: 5px;
+}
+
+.sobre div{
+  width: 40%;
+  text-align: center;
+}
+.sobre-img img{
+width: 50%;
+border-radius: 0px 20px 0px 20px;
+box-shadow: 3px 3px 10px #64321bff;
+}
+
+.sobre h2{
+  font-family: var(--titulo);
+  font-size: 40px;
+  color: var(--preto);
+  margin-bottom: 15px;
+}
+
+.sobre p{
+  font-size: 24px;
+  color: var(--preto);
+}
+
+footer{
+  background-color: var(--marrom);
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--preto);
+  font-size: 18px;
+}
