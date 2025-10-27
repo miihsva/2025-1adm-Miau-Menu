@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Sour+Gummy:ital,wght@0,100..900;1,100..900&family=Zilla+Slab:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+:root{
+  --bege: #f7f0e3ff;
+  --rosa-pastel: #eda2c3ff;
+  --chiclete: #f48eb8ff;
+  --sorvete-de-chocolate: #985a40ff;
+  --marrom: #64321bff;
+  --preto: #000000
+  --branco: #f6f1e9
+  --texto: "Zilla Slab", serif;
+  --titulo: "Sour Gummy", sans-serif;
+}
+
+body{
+    background-color: var(--rosa-pastel);
+    font-family: var(--titulo);
+    margin: 0;
+}
+
+header{
+  background-color: var(--chiclete);
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+  align-items: center;
+}
+
+.img-logo{
+    width: 25%;
+    border-radius: 20%;
+}
+
+.menu{
+  display: flex;
+  list-style: none;
+  gap: 30px;
+  color: var(--marrom);
+  font-size: 20px;
+  font-family: var(--titulo);
+  text-transform: uppercase;
+}
+
+.menu a{
+text-decoration: none;
+color: var(--bege);
+}
+
+.menu a:hover{
+  color: var(--marrom);
+  transition: 0.5s;
+}
+
+.capa{
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.capa img{
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: cover;
+}
+
+.apresentacao{
+  font-family: var(--titulo);
+  text-align: center;
+  margin: 30px 0;
+}
+
+.apresentacao h2{
+  color: var(--bege);
+  font-size: 50px;
+}
+
+.apresentacao p{
+  color: var(--preto);
+  font-size: 25px;
+  font-family: var(--texto);
+}
+
+.sobre{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0;
+  gap: 5px;
+}
+
+.sobre div{
+  width: 40%;
+  text-align: center;
+}
+.sobre-img img{
+width: 50%;
+border-radius: 0px 20px 0px 20px;
+box-shadow: 3px 3px 10px #64321bff;
+}
+
+.sobre h2{
+  font-family: var(--titulo);
+  font-size: 40px;
+  color: var(--preto);
+  margin-bottom: 15px;
+}
+
+.sobre p{
+  font-size: 24px;
+  color: var(--preto);
+}
+
+footer{
+  background-color: var(--marrom);
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--preto);
+  font-size: 18px;
+}
+
+/* Produtos */
+
+.produtos{
+     padding: 40px 0;
+     text-align: center;
+}
+
+.produtos h2{
+  font-family: var(--titulo);
+  font-size: 40px;
+  color:  var(--preto);
+  margin: 40px 0;
+}
+
+.lista-produtos{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.produto{
+  background-color: var(--chiclete);
+  width: 27%;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.produto img{
+  width: 100%;
+  border-radius: 10px;
+}
