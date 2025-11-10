@@ -6,8 +6,9 @@
   --chiclete: #f48eb8ff;
   --sorvete-de-chocolate: #985a40ff;
   --marrom: #64321bff;
-  --preto: #000000
-  --branco: #f6f1e9
+  --preto: #000000;
+  --branco: #f6f1e9;
+  --cereja: #b54590;
   --texto: "Zilla Slab", serif;
   --titulo: "Sour Gummy", sans-serif;
 }
@@ -74,7 +75,7 @@ color: var(--bege);
 }
 
 .apresentacao h2{
-  color: var(--bege);
+  color: var(--cereja);
   font-size: 50px;
 }
 
@@ -115,11 +116,72 @@ box-shadow: 3px 3px 10px #64321bff;
 }
 
 footer{
-  background-color: var(--marrom);
+  background-color: var(--chiclete);
   height: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
   color: var(--preto);
   font-size: 18px;
+}
+
+/* Produtos */
+
+.produtos{
+  padding: 40px 0;
+  text-align: center;
+}
+
+.produtos h2{
+  font-family: var(--titulo);
+  font-size: 40px;
+  color: var(--bege);
+  margin: 40px 0;
+}
+
+.lista-produtos{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.produto{
+  background-color: var(--chiclete);
+  width: 27%;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.produto img{
+  width: 100%;
+  border-radius: 10px;
+}
+
+.produto h3{
+  font-family: var(--titulo);
+  color: var(--bege);
+  font-size: 30px;
+}
+
+.produto p{
+  font-family: var(--preto);
+  color: var(--bege);
+  font-size: 21px;
+}
+
+.produto button{
+  padding: 10px 24px;
+  font-size: 16px;
+  font-family: var(--texto);
+  background-color: var(--rosa-pastel);
+  color: var(--marrom);
+  border: none;
+  border-radius: 12px;
+}
+
+.produto button:hover{
+  background-color: var(--branco);
+  transition: 0.3s;
+  cursor: pointer;
 }
